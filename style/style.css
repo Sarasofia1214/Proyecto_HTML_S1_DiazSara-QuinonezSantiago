@@ -118,10 +118,12 @@ body {
 #text_log{
     font-size: 1.2vw;
     font-family: Font;
-    color: white ;
+    color: rgb(255, 255, 255) ;
     text-align: center;
-    margin-top: 5%;
-    
+    margin-top: -35%;
+}
+a{
+    text-decoration: none;
 }
 #text5_logo{
     font-family: "Font2";
