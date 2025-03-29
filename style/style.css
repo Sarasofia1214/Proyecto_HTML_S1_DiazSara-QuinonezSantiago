@@ -31,7 +31,7 @@ body {
     background-color: white;
     border-radius: 9%;
     width: 47%;
-    height: 65%;
+    height: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,7 @@ body {
     height: 6vw;
     opacity: 1;
     border-color: rgb(255, 5, 5);
-    margin-top: -17%;
+    margin-top: -5%;
     
 }
 #text_logo{
@@ -85,5 +85,24 @@ body {
     width: 70%;
     height: 7%;
     border-radius: 1vw;
+}
+.log_gap{
+    background-color: #ff6f2c;
+    border-radius: 13vw;
+    width: 35%;
+    height: 8%;
+    margin-top: 3%;
+}
+#text_log{
+    font-size: 1.2vw;
+    font-family: Font;
+    color: white ;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+#text5_logo{
+    font-family: "Font2";
+    font-size: 0.8vw;
 
 }
