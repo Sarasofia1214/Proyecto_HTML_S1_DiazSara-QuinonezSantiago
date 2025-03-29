@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: 100%; 
+}
+@font-face {
+    font-family: Font ;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: Font2;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+
+body {
+    background: url(../images/background.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: black;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion_login{
+    background-color: rgb(255, 255, 255);
+    border-radius: 9%;
+    width: 47%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2%;
+    overflow: hidden;
+}
+#logo{
+    top: 50%;
+    left: 50%;
+    width: 7vw;
+    height: 6vw;
+    opacity: 1;
+    border-color: rgb(255, 5, 5);
+    margin-top: -1%;
+    
+}
+#text_logo{
+    font-family: "Font";
+    font-size: 2vw;
+    text-align: center;
+    line-height: 3vw;
+    
+}
+#text2_logo{
+    font-family: "Font";
+    font-size: 2vw;
+    text-align: center;
+    line-height: 3vw;
+    
+}
+#text3_logo{
+    font-family: "Font2";
+    font-size: 1vw;
+    text-align: center;
+    line-height: 3vw;
+    
+}
