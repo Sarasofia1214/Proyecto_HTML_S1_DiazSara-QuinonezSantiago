@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     height: 100%; 
     width: 100%; 
+    background-color: white;
 }
 @font-face {
     font-family: Font ;
@@ -12,8 +13,13 @@ html, body {
     font-family: Font2;
     src: url(../fonts/MyriadPro-Light.otf);
 }
-
+@keyframes bg {
+    50%{opacity: 100%;}
+    100%{opacity: 0%;}
+}
 body {
+    animation-delay: 6s;
+    animation: bg 4s ease-in-out forwards;
     background: url(../images/background.png) center center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -25,18 +31,42 @@ body {
     align-items: center;
     justify-content: center;
 }
+@keyframes logo {
+    0%{opacity: 0%;}
+    20%{opacity: 0%;}
+    79%{opacity: 0%;}
+    80%{opacity: 100%;}
+    99%{opacity: 100%;}
+    100%{opacity: 0%;}
+}
 
+.logo{
+    position: fixed;
+    height: 15%;
+    width: 10%;
+    margin-left: -29%;
+    margin-top: -4%;
+    animation-delay: 3s;
+    animation: logo 4.5s ease-in-out forwards;;
+
+}
+@keyframes welcome {
+    50%{opacity: 100%;}
+    99.9%{opacity: 0%;}
+    100%{opacity: 0%;}
+}
 .seccion_login{
     background-color: rgb(255, 255, 255);
-    border-radius: 9%;
-    width: 47%;
-    height: 55%;
+    border-radius: 3vw;
+    width: 45%;
+    height: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 2%;
     overflow: hidden;
+    animation: welcome 4s ease-in-out forwards;
 }
 #logo{
     top: 50%;
@@ -53,19 +83,24 @@ body {
     font-size: 2vw;
     text-align: center;
     line-height: 3vw;
-    
+}
+.img_pedro{
+    width: 100%;
+    height: 100%;
+    margin-top: -10%;
 }
 #text2_logo{
     font-family: "Font";
     font-size: 2vw;
     text-align: center;
     line-height: 3vw;
-    
+    margin-top: -1%;
 }
 #text3_logo{
     font-family: "Font2";
     font-size: 1vw;
     text-align: center;
     line-height: 3vw;
-    
+    padding: 0%;
+    margin-top: -2%;
 }
