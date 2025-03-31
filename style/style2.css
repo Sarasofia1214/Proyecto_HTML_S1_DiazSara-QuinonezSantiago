@@ -5,11 +5,11 @@ html, body {
     width: 100%; 
 }
 @font-face {
-    font-family: Font ;
+    font-family: "Font" ;
     src: url(../fonts/MYRIADPRO-REGULAR.OTF);
 }
 @font-face {
-    font-family: Font2;
+    font-family: "Font2";
     src: url(../fonts/MyriadPro-Light.otf);
 }
 /**
@@ -121,31 +121,8 @@ body {
 }
 
 .seccion_principal > .header1{
-    margin: 0;
-    padding: 1.3vw;
+    padding: 1.9vw;
     min-width: 100%;
-    background-color: rgb(143, 117, 208);
-    border-bottom:0.5ch solid #707070;
-}
-.seccion_principal > .header2{
-    margin: 0;
-    padding: 1.3vw;
-    min-width: 100%;
-    background-color: rgb(49, 159, 159);
-    border-bottom:0.5ch solid #707070;
-}
-.seccion_principal > .header3{
-    margin: 0;
-    padding: 1.3vw;
-    min-width: 100%;
-    background-color: rgb(200, 215, 38);
-    border-bottom:0.5ch solid #707070;
-}
-.seccion_principal > .header4{
-    margin: 0;
-    padding: 1.3vw;
-    min-width: 100%;
-    background-color: rgb(153, 39, 176);
     border-bottom:0.5ch solid #707070;
 }
 .img_add{
@@ -241,9 +218,31 @@ a{
     text-decoration: none;
     color: black;
 }
-
-.seccion_principal> .he{
-    background-color: rgb(150, 48, 48);
-    margin-top: -2.7%;
-    padding: 5vw;
+.seccion_principal > .header2{
+    margin-top: 1vw;
+    min-width: 100%;
+    text-align: center;
+}
+.title{
+    font-size: 2vw;
+    font-family: "Font";
+    text-align: center;
+}
+.seccion_principal >.header3{
+    margin: 0;
+    padding: 1.3vw;
+    min-width: 100%;
+    background-color: rgb(172, 173, 167);
+}
+.text{
+    font-size: 2vw;
+    font-family: "Font";
+    text-align: center;
+}
+.seccion_principal > .header4{
+    margin: 0;
+    padding: 1.3vw;
+    min-width: 100%;
+    background-color: rgb(153, 39, 176);
+    border-bottom:0.5ch solid #707070;
 }
