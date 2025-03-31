@@ -12,17 +12,27 @@ html, body {
     font-family: Font2;
     src: url(../fonts/MyriadPro-Light.otf);
 }
-body {
-    background: url(../images/background.png) center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-color: black;
-    height: 100%; 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@keyframes back {
+    0%{
+        background: url(../images/background.png) center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-color: black;
+        height: 100%; 
+    }
+    95%{
+        background: url(../images/background.png) center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-color: black;
+        height: 100%;
+    }
+    100%{background-color: white;}
+}
+@keyframes welcome {
+    50%{opacity: 100%;}
+    99.9%{opacity: 0%;}
+    100%{opacity: 0%;}
 }
 @keyframes logo {
     0%{opacity: 0%;}
@@ -32,62 +42,60 @@ body {
     99%{opacity: 100%;}
     100%{opacity: 0%;}
 }
-
+@keyframes header {
+    0%{opacity: 0%;}
+    99%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+body {
+    background-color: white;    
+    animation: back 5s ease-in-out;
+}
 .logo{
-    position: fixed;
     height: 15%;
     width: 10%;
-    margin-left: -29%;
-    margin-top: -4%;
+    margin-top: 20vw;
+    margin-left: 45vw;
     animation-delay: 3s;
-    animation: logo 4.5s ease-in-out forwards;;
-
-}
-@keyframes welcome {
-    50%{opacity: 100%;}
-    99.9%{opacity: 0%;}
-    100%{opacity: 0%;}
+    animation: logo 4.5s ease-in-out forwards;
 }
 .seccion_login{
     background-color: rgb(255, 255, 255);
     border-radius: 3vw;
-    width: 45%;
-    height: 45%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2%;
-    overflow: hidden;
+    width: 45vw;
+    height: 30vw;
     animation: welcome 4s ease-in-out forwards;
+    border: 1px solid #707070;
+    margin-left: 27vw;
+    margin-top: -18vw;
 }
 #logo{
-    top: 50%;
-    left: 50%;
-    width: 7vw;
+    width: 5vw;
     height: 6vw;
     opacity: 1;
     border-color: rgb(255, 5, 5);
-    margin-top: -1%;
-    
+    margin-left: 20vw;
+    margin-top: 1vw;
 }
 #text_logo{
     font-family: "Font";
     font-size: 2vw;
     text-align: center;
     line-height: 3vw;
+    margin-top: 0.5vw;
 }
 .img_pedro{
-    width: 100%;
-    height: 100%;
-    margin-top: -10%;
+    width: 20%;
+    height: 20%;
+    margin-left: 18vw;
+    margin-top: 0.5vw;
 }
 #text2_logo{
     font-family: "Font";
     font-size: 2vw;
     text-align: center;
     line-height: 3vw;
-    margin-top: -1%;
+    margin-top: 1vw;
 }
 #text3_logo{
     font-family: "Font2";
@@ -97,172 +105,79 @@ body {
     padding: 0%;
     margin-top: -2%;
 }
-@keyframes heade {
-    0%{opacity: 0%;}
-    99%{opacity: 0%;}
-    100%{opacity: 100%;}
-}
-.seccion_principal_header {
-    background-color: rgb(255, 255, 255);
+.container{
     width: 100vw;
-    height: 4vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0%;
-    border-bottom: 0.4ch solid rgb(105, 105, 112);
-    animation: header 4.8s ease-in-out forwards;
-}
-
-#img_add {
-    width: 1.5vw; 
-    height: 1.5vw; 
-    margin-left: 10%;
-    margin-top: 1.2%;
-}
-
-#add_text {
-    width: 2vw;
-    height: 1vw;
-    font-size: 1.1vw;
-    margin-left: 11.9%;
-    margin-top: -1.5%;
-    font-family: "Font";
-}
-#img_arrow {
-    width: 1.5vw;
-    height: 1vw;
-    margin-top: -1%;  
-    margin-left: 22%;
-    display: block;  
-}
-#arrow_text {
-    width: 2vw;
-    height: 1vw;
-    font-size: 1.1vw;
-    margin-left: 23.9%;
-    margin-top: -1%;
-    font-family: "Font";
-}
-#img_trash{
-    width: 1.5vw;
-    height: 1.2vw;
-    margin-top: -1%;  
-    margin-left: 34%;
-    display: block;  
-}
-#trash_text {
-    width: 2vw;
-    height: 1vw;
-    font-size: 1.1vw;
-    margin-left: 37.9vw;
-    margin-top: -1.1%;
-    font-family: "Font1";
-}
-#img_logo{
-    width: 1.8vw;
     height: 2vw;
-    margin-top: -1.5%;  
-    margin-left: 55vw;
-    display: block;  
+    border-bottom: 4px solid #707070;
+    margin-left: 0vw;
+    margin-top: -39vw;
+}
+.img_add{
+    margin-top: -0.2vw;
+    margin-left: 6vw;
+}
+.add_text{
+    margin-left: 8vw;
+    margin-top: -1.75vw;
+}
+.img_arrow{
+    margin-left: 14vw;
+    margin-top: -0.4vw;
     position: absolute;
 }
-#trash_text {
-    width: 2vw;
-    height: 1vw;
-    font-size: 1.1vw;
-    margin-top: -1.1%;  
-    margin-left: 35.9vw;
-    font-family: "Font";
-    position: relative;  
-    text-align: center;  
-}
-
-#img_logo{
-    width: 1.8vw;
-    height: 2vw;
-    margin-top: -1.5%;  
-    margin-left: 84vh;
-    position: absolute; 
-}
-#img_bug {
-    width: 1.5vw;
-    height: 1.5vw;
-    margin-top: -1.2vw;
-    margin-left: 60%;
-    position: absolute; 
-}
-
-#bug_text {
-    width: 2vw;
-    height: 1vw;
-    font-size: 1.1vw;
+.arrow_text{
+    margin-left: 16vw;
     margin-top: -1vw;
-    margin-left: 62%;
-    font-family: "Font";
-    position: absolute;  
 }
-#img_help{
-    width: 1.5vw;
-    height: 1.5vw;
-    margin-top: -1.2vw;
-    margin-left: 76%;
-    position: absolute; 
-}
-
-#help_text {
-    width: 2vw;
-    height: 1vw;
-    font-size: 1.1vw;
-    margin-top: -1.1vw;
-    margin-left: 78%;
-    font-family: "Font";
-    position: absolute;  
-}
-#settings{
-    width: 1vw;
-    height: 1vw;
-    background-color: aliceblue;
-    margin-top: -1.1vw;
-    margin-left: 93vw;
-    position: absolute;
-}
-
-#bell{
-    width: 1vw;
-    height: 1vw;
-    background-color: aliceblue;
-    margin-top: -1vw;
-    margin-left: 95vw;
-    position: absolute;
-}
-#Pedro{
-    width: 2vw;
-    height: 2vw;
-    background-color: aliceblue;
+.img_trash{
+    margin-left: 23vw;
     margin-top: -1.5vw;
-    margin-left: 97vw;
     position: absolute;
 }
-
-.seccion_principal_main {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    margin-top: -26.5%;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-bottom: 0.4ch solid rgb(105, 105, 112);
-    animation: header 4.8s ease-in-out forwards;
+.trash_text{
+    margin-left: 25vw;
+    margin-top: -1vw;
+    position: absolute;
 }
-
-
-
+.img_logo{
+    width: 2vw;
+    margin-left: 44vw;
+    margin-top: -1.4vw;
+    position: absolute;
+}
+.img_bug{
+    margin-left: 66vw;
+    margin-top: -1.5vw;
+    position: absolute;
+}
+.bug_text{
+    margin-left: 68.5vw;
+    margin-top: -0.9vw;
+    position: absolute;
+}
+.img_help{
+    margin-left: 75vw;
+    margin-top: -1.4vw;
+    position: absolute;
+}
+.help_text{
+    margin-left: 77.5vw;
+    margin-top: -0.9vw;
+    position: absolute;
+}
+.settings{
+    margin-left: 93vw;
+    margin-top: -1vw;
+    position: absolute;
+}
+.bell{
+    margin-left: 95vw;
+    margin-top: -1vw;
+    position: absolute;
+}
+.Pedro{
+    margin-left: 97vw;
+    margin-top: -1.4vw;
+    position: absolute;
+    width: 1.8vw;
+}
