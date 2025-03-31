@@ -12,6 +12,7 @@ html, body {
     font-family: Font2;
     src: url(../fonts/MyriadPro-Light.otf);
 }
+/**
 @keyframes back {
     0%{
         background: url(../images/background.png) center center;
@@ -42,11 +43,13 @@ html, body {
     99%{opacity: 100%;}
     100%{opacity: 0%;}
 }
+
 @keyframes header {
     0%{opacity: 0%;}
     99%{opacity: 0%;}
     100%{opacity: 100%;}
 }
+**/
 body {
     background-color: white;    
     animation: back 5s ease-in-out;
@@ -58,7 +61,9 @@ body {
     margin-left: 45vw;
     animation-delay: 3s;
     animation: logo 4.5s ease-in-out forwards;
+    position: fixed;
 }
+/**
 .seccion_login{
     background-color: rgb(255, 255, 255);
     border-radius: 3vw;
@@ -67,7 +72,8 @@ body {
     animation: welcome 4s ease-in-out forwards;
     border: 1px solid #707070;
     margin-left: 27vw;
-    margin-top: -18vw;
+    margin-top: 10vw;
+    position: fixed;
 }
 #logo{
     width: 5vw;
@@ -105,79 +111,125 @@ body {
     padding: 0%;
     margin-top: -2%;
 }
-.container{
-    width: 100vw;
-    height: 2vw;
-    border-bottom: 4px solid #707070;
-    margin-left: 0vw;
-    margin-top: -39vw;
+**/
+
+.seccion_principal_header{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    animation: header 5s ease-in-out;
+}
+
+.seccion_principal_header > header{
+    margin: 0;
+    padding: 1.3vw;
+    min-width: 100%;
+    border-bottom:0.5ch solid #707070;
 }
 .img_add{
-    margin-top: -0.2vw;
-    margin-left: 6vw;
+   width: 1.3vw;
+   margin-left: 11.5vw;
+   margin-top: -0.5vw;
+   position: fixed;
 }
 .add_text{
-    margin-left: 8vw;
-    margin-top: -1.75vw;
+    font-size: 0.9vw;
+    margin-left: 13.2vw;
+    margin-top: -0.3vw;
+    font-family: "Font";
+    position: fixed;
 }
 .img_arrow{
-    margin-left: 14vw;
-    margin-top: -0.4vw;
-    position: absolute;
+    width: 1.1vw;
+    margin-left: 22.5vw;
+    margin-top: -0.5vw;
+    position: fixed;
 }
 .arrow_text{
-    margin-left: 16vw;
-    margin-top: -1vw;
+    font-size: 0.9vw;
+    margin-left: 23.9vw;
+    margin-top: -0.3vw;
+    font-family: "Font";
+    position: fixed;
 }
 .img_trash{
-    margin-left: 23vw;
-    margin-top: -1.5vw;
-    position: absolute;
+    width: 1vw;
+    margin-left: 34.4vw;
+    margin-top: -0.6vw;
+    position: fixed;
 }
 .trash_text{
-    margin-left: 25vw;
-    margin-top: -1vw;
-    position: absolute;
+    font-size: 0.9vw;
+    margin-left: 35.6vw;
+    margin-top: -0.3vw;
+    font-family: "Font";
+    position: fixed;
 }
 .img_logo{
     width: 2vw;
-    margin-left: 44vw;
-    margin-top: -1.4vw;
-    position: absolute;
+    margin-left: 47vw;
+    margin-top: -1vw;
+    position: fixed;
 }
 .img_bug{
-    margin-left: 66vw;
-    margin-top: -1.5vw;
-    position: absolute;
+    width: 1.2vw;
+    margin-left: 63.4vw;
+    margin-top: -0.6vw;
+    position: fixed;
 }
 .bug_text{
-    margin-left: 68.5vw;
-    margin-top: -0.9vw;
-    position: absolute;
+    font-size: 0.9vw;
+    margin-left: 64.9vw;
+    margin-top: -0.3vw;
+    font-family: "Font";
+    position: fixed;
 }
 .img_help{
-    margin-left: 75vw;
-    margin-top: -1.4vw;
-    position: absolute;
+    width: 1.3vw;
+    margin-left: 75.2vw;
+    margin-top: -0.5vw;
+    position: fixed;
 }
 .help_text{
-    margin-left: 77.5vw;
-    margin-top: -0.9vw;
-    position: absolute;
+    font-size: 0.9vw;
+    margin-left: 76.8vw;
+    margin-top: -0.3vw;
+    font-family: "Font";
+    position: fixed;
 }
 .settings{
-    margin-left: 93vw;
-    margin-top: -1vw;
-    position: absolute;
+    width: 0.7vw;
+    margin-left: 92vw;
+    margin-top: -0.3vw;
+    position: fixed;
 }
 .bell{
-    margin-left: 95vw;
-    margin-top: -1vw;
-    position: absolute;
+    width: 0.7vw;
+    margin-left: 93.5vw;
+    margin-top: -0.3vw;
+    position: fixed;
 }
 .Pedro{
-    margin-left: 97vw;
-    margin-top: -1.4vw;
-    position: absolute;
-    width: 1.8vw;
+    width: 2vw;
+    margin-left: 95vw;
+    margin-top: -1vw;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Texto de header */
+.seccion_principal_header2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    animation: header 5s ease-in-out;
+}
+
+.seccion_principal_header > headerr{
+    margin: 0;
+    padding: 1.3vw;
+    min-width: 100%;
 }
