@@ -124,94 +124,88 @@ body {
 .seccion_principal > .header1{
     padding: 1vw;
     margin-top: 1vw;
-    min-width: 100%;
     border-bottom:0.3ch solid #c9c6c6;
 }
 .img_add{
-   width: 1.3vw;
+   width: 1.8vw;
    margin-left: 11.5vw;
    margin-top: -0.5vw;
    position: fixed;
 }
 .add_text{
-    font-size: 0.9vw;
-    margin-left: 13.2vw;
+    font-size: 1.2vw;
+    margin-left: 13.8vw;
     margin-top: -0.3vw;
     font-family: "Font";
     position: fixed;
 }
 .img_arrow{
-    width: 1.1vw;
+    width: 1.4vw;
     margin-left: 22.5vw;
-    margin-top: -0.5vw;
+    margin-top: -0.2vw;
     position: fixed;
 }
 .arrow_text{
-    font-size: 0.9vw;
-    margin-left: 23.9vw;
-    margin-top: -0.3vw;
+    font-size: 1.1vw;
+    margin-left: 24.4vw;
     font-family: "Font";
     position: fixed;
 }
 .img_trash{
-    width: 1vw;
+    width: 1.2vw;
     margin-left: 34.4vw;
-    margin-top: -0.6vw;
+    margin-top: -0.3vw;
     position: fixed;
 }
 .trash_text{
-    font-size: 0.9vw;
-    margin-left: 35.6vw;
-    margin-top: -0.3vw;
+    font-size: 1.1vw;
+    margin-left: 36.1vw;
     font-family: "Font";
     position: fixed;
 }
 .img_logo{
     width: 2vw;
     margin-left: 47vw;
-    margin-top: -1vw;
+    margin-top: -0.4vw;
     position: fixed;
 }
 .img_bug{
-    width: 1.2vw;
+    width: 1.5vw;
     margin-left: 63.4vw;
-    margin-top: -0.6vw;
+    margin-top: -0.4vw;
     position: fixed;
 }
 .bug_text{
-    font-size: 0.9vw;
-    margin-left: 64.9vw;
-    margin-top: -0.3vw;
+    font-size: 1.1vw;
+    margin-left: 65.3vw;
+    margin-top: -0.1vw;
     font-family: "Font";
     position: fixed;
 }
 .img_help{
-    width: 1.3vw;
-    margin-left: 75.2vw;
-    margin-top: -0.5vw;
+    width: 1.8vw;
+    margin-left: 76vw;
+    margin-top: -0.4vw;
     position: fixed;
 }
 .help_text{
-    font-size: 0.9vw;
-    margin-left: 76.8vw;
-    margin-top: -0.3vw;
+    font-size: 1.1vw;
+    margin-left: 78.6vw;
     font-family: "Font";
     position: fixed;
 }
 .settings{
-    width: 0.7vw;
-    margin-left: 92vw;
-    margin-top: -0.3vw;
+    width: 1.2vw;
+    margin-left: 90vw;
     position: fixed;
 }
 .bell{
-    width: 0.7vw;
-    margin-left: 93.5vw;
-    margin-top: -0.3vw;
+    width: 1.2vw;
+    margin-left: 92.5vw;
     position: fixed;
 }
 .Pedro{
-    width: 2vw;
+    width: 3vw;
     margin-left: 95vw;
     margin-top: -1vw;
     position: fixed;
@@ -222,7 +216,6 @@ a{
 }
 .seccion_principal > .header2{
     margin-top: 1vw;
-    min-width: 100%;
     text-align: center;
 }
 .title{
@@ -304,8 +297,8 @@ a{
     border-radius: 1vw;
     width: 87vw;
     margin-left: 4vw;
-    height: 3vw;
-    margin-top: -1vw;
+    height: 6vh;
+    margin-top:-1vw;
 }
 .modelado{
     font-size: 1vw;
@@ -352,7 +345,6 @@ a{
 .modelado8{
     font-size: 1vw;
     font-family: "Font2";
-    margin-left: 94vw;
     margin-top: -1.2vw;
 }
 .modelado9{
@@ -377,8 +369,8 @@ a{
     border-radius: 1vw;
     width: 87vw;
     margin-left: 4vw;
-    margin-top: -2vw;
-    height: 3vw;
+    height: 6vh;
+
 }
 .modelado{
     font-size: 1vw;
@@ -449,7 +441,9 @@ a{
     border-radius: 1vw;
     width: 87vw;
     margin-left: 4vw;
-    height: 3vw;
+    height: 6vh;
+
+    margin-top: 0.6vw;
 }
 .modelado{
     font-size: 1vw;
@@ -519,7 +513,8 @@ a{
     border-radius: 1vw;
     width: 87vw;
     margin-left: 4vw;
-    height: 3vw;
+    height: 6vh;
+    margin-top: 1.1vw;
 }
 .modelado{
     font-size: 1vw;
@@ -589,7 +584,8 @@ a{
     border-radius: 1vw;
     width: 87vw;
     margin-left: 4vw;
-    height: 3vw;
+    height: 6vh;
+    margin-top: 1vw;
 }
 .modelado{
     font-size: 1vw;
@@ -659,7 +655,8 @@ a{
     border-radius: 1vw;
     width: 87vw;
     margin-left: 4vw;
-    height: 3vw;
+    height: 6vh;
+    margin-top: 1.2vw;
 }
 .modelado{
     font-size: 1vw;
@@ -722,3 +719,22 @@ a{
     margin-top: -1.5vw;
     position: fixed;
 }
+
+.seccion_principal > .header11{
+    margin: 0;
+    border-radius: 4vw;
+    background-color:  #ff6f2c;;
+    width: 12.5vw;
+    margin-left: 44vw;
+    height: 6vh;
+    margin-top: 1vw;
+}
+.add{
+    font-size: 1vw;
+    font-family: "Font";
+    margin-top:1vw;
+    margin-left: 2.5vw;
+    position: fixed ;
+    color: rgb(255, 255, 255);
+}
+
