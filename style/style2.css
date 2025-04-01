@@ -232,6 +232,7 @@ a{
 }
 .seccion_principal > .header3{
     margin: 0;
+
     min-width: 100%;
 }
 .text{
@@ -376,6 +377,7 @@ a{
     border-radius: 1vw;
     width: 87vw;
     margin-left: 4vw;
+    margin-top: -2vw;
     height: 3vw;
 }
 .modelado{
