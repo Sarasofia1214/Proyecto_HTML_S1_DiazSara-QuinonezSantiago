@@ -54,6 +54,7 @@ body {
     background-color: white;    
     animation: back 5s ease-in-out;
 }
+/**
 .logo{
     height: 15%;
     width: 10%;
@@ -63,7 +64,7 @@ body {
     animation: logo 4.5s ease-in-out forwards;
     position: fixed;
 }
-
+**/
 .seccion_login{
     background-color: rgb(255, 255, 255);
     border-radius: 3vw;
@@ -775,4 +776,55 @@ circle{
     transform: rotate(-90deg);
     transform-origin: 50%;
     stroke-linecap: round;
+}
+
+@media only screen and (max-width: 430px) {
+    .seccion_login{
+        background-color: rgb(255, 255, 255);
+        border-radius: 3vw;
+        width: 80vw;
+        height: 100vw;
+        animation: welcome 4s ease-in-out forwards;
+        border: 1px solid #707070;
+        margin-left: 10vw;
+        margin-top: 55vw;
+        position: fixed;
+    }
+    #logo{
+        width: 5vw;
+        height: 6vw;
+        opacity: 1;
+        border-color: rgb(255, 5, 5);
+        margin-left: 20vw;
+        margin-top: 1vw;
+    }
+    #text_logo{
+        font-family: "Font";
+        font-size: 9vw;
+        text-align: center;
+        line-height: 3vw;
+        margin-top: 0.5vw;
+    }
+    .img_pedro{
+        width: 20%;
+        height: 20%;
+        margin-left: 18vw;
+        margin-top: 0.5vw;
+    }
+    #text2_logo{
+        font-family: "Font";
+        font-size: 2vw;
+        text-align: center;
+        line-height: 3vw;
+        margin-top: 1vw;
+    }
+    #text3_logo{
+        font-family: "Font2";
+        font-size: 1vw;
+        text-align: center;
+        line-height: 3vw;
+        padding: 0%;
+        margin-top: -2%;
+    }
+
 }
