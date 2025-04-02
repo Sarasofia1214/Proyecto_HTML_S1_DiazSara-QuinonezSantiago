@@ -4,6 +4,7 @@ html, body {
     height: 100%; 
     width: 100%; 
 }
+
 @font-face {
     font-family: Font ;
     src: url(../fonts/MYRIADPRO-REGULAR.OTF);
@@ -25,6 +26,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 @keyframes logo {
     0%{opacity: 100%;}
     20% {opacity: 100%;}
@@ -38,8 +40,10 @@ body {
     animation-delay: 1s;
     animation: logo 10s ease-in-out forwards;
     position: fixed;
+   
 
 }
+
 @keyframes login {
     50%{opacity: 0%;}
     99%{opacity: 0%;}
@@ -132,6 +136,86 @@ a{
     font-size: 0.8vw;
 
 }
-@media (min-width: 400px){
-
+@media only screen and (max-width: 430px) {
+    .seccion_login{
+        background-color: white;
+        border-radius: 9%;
+        width: 90%;
+        height: 53%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2%;
+        animation-delay: 8s;
+        animation: login 8s ease-in-out forwards;
+        opacity: 0;
+        overflow: hidden;
+        position: fixed;
+    }
+    #logo{
+        left: 50%;
+        width: 20vw;
+        height: 20vw;
+        opacity: 1;
+        margin-top: -5%;
+        
+    }
+    #text_logo{
+        font-family: "Font";
+        font-size: 5vw;
+        text-align: center;
+        line-height: 6vw;
+        
+    }
+    #text2_logo{
+        font-family: "Font2";
+        font-size: 3vw;
+        text-align: center;
+        
+    }
+    #text3_logo{
+        font-family: "Font2";
+        font-size: 4vw;
+        margin-left: -50%;
+        
+    }
+    #gap_user{
+        border: 0.1ch solid #707070;
+        width: 70%;
+        height: 7%;
+        border-radius: 6vw;
+    }
+    #text4_logo{
+        font-family: "Font2";
+        font-size: 4vw;
+        margin-left: -43%;
+        margin-top: 1%;
+        
+    }
+    #gap2_user{
+        border: 0.1ch solid #707070;
+        width: 70%;
+        height: 7%;
+        border-radius: 6vw;
+    }
+    .log_gap{
+        background-color: #ff6f2c;
+        border-radius: 13vw;
+        width: 45%;
+        height: 8%;
+        margin-top: 3%;
+    }
+    #text_log{
+        font-size: 4vw;
+        font-family: Font;
+        color: rgb(255, 255, 255) ;
+        text-align: center;
+        margin-top: -33%;
+    }
+    #text5_logo{
+        font-family: "Font2";
+        font-size: 3vw;
+        text-align: center;
+    }
 }
