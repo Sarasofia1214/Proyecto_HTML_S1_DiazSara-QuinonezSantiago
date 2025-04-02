@@ -49,12 +49,12 @@ html, body {
     99%{opacity: 0%;}
     100%{opacity: 100%;}
 }
-
+**/
 body {
     background-color: white;    
     animation: back 5s ease-in-out;
 }
-
+/**
 .logo{
     height: 15%;
     width: 10%;
@@ -779,6 +779,16 @@ circle{
 }
 
 @media only screen and (max-width: 430px) {
+    .logo{
+        height: 55%;
+        width: 50%;
+        margin-top: 50vw;
+        margin-left: 27vw;
+        animation-delay: 3s;
+        animation: logo 4.5s ease-in-out forwards;
+        position: fixed;
+    }
+
     .seccion_login{
         background-color: rgb(255, 255, 255);
         border-radius: 3vw;
@@ -826,6 +836,7 @@ circle{
         padding: 0%;
         margin-top: 6%;
     }
+
 
 
 
@@ -916,6 +927,8 @@ circle{
         text-decoration: none;
         color: black;
     }
+
+
     .seccion_principal > .header2{
         margin-top: 1vw;
         text-align: center;
@@ -927,6 +940,8 @@ circle{
         text-align: center;
         margin-top: 3vw;
     }
+
+
     .seccion_principal > .header3{
         margin: 0;
         min-width: 100%;
@@ -937,6 +952,9 @@ circle{
         text-align: center;
         margin-top: -3vw;
     }
+
+
+
     .seccion_principal > .header4{
         margin: 0;
         min-width: 100%;
@@ -994,6 +1012,8 @@ circle{
         margin-left: 85vw;
         margin-top: -1.2vw;
     }
+
+    
     .seccion_principal > .header5{
         margin: 0;
         border: 0.2ch solid #707070;

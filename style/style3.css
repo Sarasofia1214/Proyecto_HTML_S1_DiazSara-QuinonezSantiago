@@ -6,20 +6,244 @@
     font-family: "Font2";
     src: url(../fonts/MyriadPro-Light.otf);
 }
-.add{
-    display: flex;
-    flex-direction: row;
-    background-color: #ff6f2c;
-    width: 90vw;
-    height: 5vw;
-    margin-left: 5vw;
-    margin-top: 4vw;
+
+.hader_add1{
+    width: 100vw;
+    height: 3vw;
+    border-bottom: 0.1ch solid #707070;
 }
-.add1{
-    font-size: 3vw;
+.hader_add2{
     font-family: "Font";
-    color: white;
-    margin-top: 1vw;
-    margin-left: 39vw;
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-left: 4vw;
+}
+.hader_add3{
+    width: 80vw;
+    height: 5vw;
+    background-color:  #ff6f2c;
+    margin-left: 8vw;
+}
+.tex{
+    font-size: 2vw;
+    font-family: "Font";
+    color: rgb(255, 253, 253);
+    margin-top: 5vw;
+    padding: 1.5vw;
+    margin-left: 2vw;
+}
+.add_seccion2{
+    width: 79.6vw;
+    height: 65vh;
+    border: solid  #cbcaca;
+    margin-left: 8vw;
+    margin-top: 0vw;
+}
+.tex1{
+    font-size: 1.6vw;
+    font-family: "Font";
+    margin-top: 3vw;
+    width: 18vw;
+    height: 2vh;
+    margin-left: 3vw;
+}
+.tex1_gap{
+    width: 40vw;
+    height: 3vh;
+    border-radius: 0.5vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: 0.1ch solid rgb(212, 212, 216);
+}
+.tex1_gap1{
+    font-family: "Font2";
+    color: rgb(116, 116, 117);
+    font-size: 1vw;
+    margin-top:0.6vw;
+    margin-left: 1vw;
 }
 
+.tex2{
+    font-size: 1.6vw;
+    font-family: "Font";
+    margin-top: -6vw;
+    width: 18vw;
+    height: 2vh;
+    margin-left: 45vw;
+}
+.tex2_gap{
+    width: 30vw;
+    height: 3vh;
+    border-radius: 0.5vw;
+    margin-top: 2vw;
+    margin-left: 45vw;
+    border: 0.1ch solid rgb(212, 212, 216);
+}
+.tex2_gap2{
+    font-family: "Font2";
+    color: rgb(116, 116, 117);
+    font-size: 1vw;
+    margin-top:0.6vw;
+    margin-left: 1vw;
+    width: 20vw;
+}
+.tex3{
+    font-size: 1.6vw;
+    font-family: "Font";
+    margin-top: 3vw;
+    width: 18vw;
+    height: 2vh;
+    margin-left: 3vw;
+}
+
+.tex3_gap{
+    width: 40vw;
+    height: 3vh;
+    border-radius: 0.5vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    background-color: rgb(212, 212, 216);
+
+}
+.tex3_gap3{
+    font-family:"Font2";
+    font-size: 1vw;
+    margin-top: 1vw;
+    padding: 0.5vw;
+}
+.tex4{
+    font-size: 1.6vw;
+    font-family: "Font";
+    margin-top: -6vw;
+    width: 18vw;
+    height: 2vh;
+    margin-left: 45vw;
+}
+
+.tex4_gap{
+    width: 40vw;
+    height: 6vh;
+    border-radius: 1vw;
+    margin-top: 10vw;
+    margin-left: -7vw;
+    background-color: rgb(212, 212, 216);
+
+}
+.tex4_gap4{
+    width: 40vw;
+    height: 3vh;
+    border-radius: 0.5vw;
+    margin-top: -8vw;
+    margin-left: 3vw;
+    background-color: rgb(212, 212, 216);
+}
+.tex5{
+    font-size: 1.3vw;
+    font-family: "Font";
+    margin-top: 15vw;
+    margin-left: 4vw;
+}
+
+.tex5_gap{
+    width: 40vw;
+    height: 6vh;
+    border-radius: 1vw;
+    margin-top: 10vw;
+    margin-left: -7vw;
+    background-color: rgb(212, 212, 216);
+
+}
+.tex5_gap5{
+    font-family:"Font2";
+    font-size: 1vw;
+    margin-top: 1.2vw;
+    margin-left: 1vw;
+}
+.tex6{
+    font-size: 1.3vw;
+    font-family: "Font";
+    margin-top: 15vw;
+    margin-left: 4vw;
+}
+
+.tex6_gap{
+    width: 40vw;
+    height: 6vh;
+    border-radius: 1vw;
+    margin-top: 10vw;
+    margin-left: -7vw;
+    background-color: rgb(212, 212, 216);
+
+}
+.tex6_gap6{
+    font-family:"Font2";
+    font-size: 1vw;
+    margin-top: 1.2vw;
+    margin-left: 1vw;
+}
+.tex7{
+    font-size: 1.3vw;
+    font-family: "Font";
+    margin-top: 15vw;
+    margin-left: 4vw;
+}
+
+.tex7_gap{
+    width: 40vw;
+    height: 6vh;
+    border-radius: 1vw;
+    margin-top: 10vw;
+    margin-left: -7vw;
+    background-color: rgb(212, 212, 216);
+
+}
+.tex7_gap7{
+    font-family:"Font2";
+    font-size: 1vw;
+    margin-top: 1.2vw;
+    margin-left: 1vw;
+}
+.tex8{
+    font-size: 1.3vw;
+    font-family: "Font";
+    margin-top: 15vw;
+    margin-left: 4vw;
+}
+
+.tex8_gap{
+    width: 40vw;
+    height: 6vh;
+    border-radius: 1vw;
+    margin-top: 10vw;
+    margin-left: -7vw;
+    background-color: rgb(212, 212, 216);
+
+}
+.tex8_gap8{
+    font-family:"Font2";
+    font-size: 1vw;
+    margin-top: 1.2vw;
+    margin-left: 1vw;
+}
+.tex9{
+    font-size: 1.3vw;
+    font-family: "Font";
+    margin-top: 15vw;
+    margin-left: 4vw;
+}
+
+.tex9_gap{
+    width: 40vw;
+    height: 6vh;
+    border-radius: 1vw;
+    margin-top: 10vw;
+    margin-left: -7vw;
+    background-color: rgb(212, 212, 216);
+
+}
+.tex9_gap9{
+    font-family:"Font2";
+    font-size: 1vw;
+    margin-top: 1.2vw;
+    margin-left: 1vw;
+}
