@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Font" ;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: "Font2";
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    background-color: #ff6f2c;
+    width: 90vw;
+    height: 5vw;
+    margin-left: 5vw;
+    margin-top: 4vw;
+}
+.add1{
+    font-size: 3vw;
+    font-family: "Font";
+    color: white;
+    margin-top: 1vw;
+    margin-left: 39vw;
+}
+
