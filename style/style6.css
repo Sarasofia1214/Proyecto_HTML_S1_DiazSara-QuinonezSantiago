@@ -6,7 +6,12 @@
     font-family: "Font2";
     src: url(../fonts/MyriadPro-Light.otf);
 }
-
+.back{
+    position: fixed;
+    margin-top: 1vw;
+    margin-left: -49vw;
+    width: 6vw;
+}
 .principal_box{
     display: flex;
     gap: 20px;
@@ -131,13 +136,46 @@
     font-family: "Font";
     font-size: 1.5vw;
 }
+
 .box_3_text3{
+    text-align: center;
+    width: 19vw;
     font-family: "Font";
     font-size: 1.5vw;
+    height: 3vw;
     background-color:#ffdbc1;
-    border-radius: 2px solid #ff6f2c;
+    border: 0.1ch solid #ff6f2c;
+    line-height: 3vw;
 }
 .box_3_text4{
+    text-align: center;
+    font-family: "Font";
+    font-size: 1.5vw;
+    width: 19vw;
+    height: 3vw;
+    line-height: 3vw;
+    border: 0.1ch solid #ff6f2c;
+}
+.last_box{
+    background-color:#ffdbc1;
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    width: 85%;
+    height: 6vw;
+    margin-top: 6vw;
+    margin-left: 7.6vw;
+    border: 0.1ch solid #ff6f2c;
+
+}
+
+.last_box_title{
+    font-family: "Font";
+    font-size: 2vw;
+    color: #ff6f2c;
+    line-height: 3vw;
+}
+.last_box_text{
     font-family: "Font";
     font-size: 1.5vw;
 }
