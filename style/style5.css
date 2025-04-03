@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Font";
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: "Font2";
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+body{
+    margin: 0%;
+   
+}
+
+.eliminar_seccion{
+    display: flex;
+    margin-top: -1vh;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.title_box{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 0.2ch solid  #ff6f2c;
+
+}
+.title{
+    font-family: "Font";
+    font-size: 2vw;
+    margin-top: 3.5vh;
+    margin-left: 6vw;
+}
+.back{
+    width: 3vw;
+    margin-top: -5vh;
+    margin-left:1vw;
+    position: absolute;
+}
+.danger_box{
+    display: flex;
+    width: 90vw;
+    height: 11vh;
+    margin-top: 13vh;
+    margin-left: -95vw;
+    background-color: #FFF2DF;
+}
+.danger{
+    width: 3vw;
+    height: 4vh;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    background-color: aqua;
+}
+.danger_title{
+    font-family: "Font";
+    font-size: 1.7vw;
+    margin-top: 2vh;
+    color: #666161  ;
+    margin-left: 1vw;
+    width: 20vw;
+    height: 4vh;
+}
+.danger_text{
+    
+}
