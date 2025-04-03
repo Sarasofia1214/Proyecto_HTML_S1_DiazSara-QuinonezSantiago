@@ -12,7 +12,7 @@ html, body {
     font-family: "Font2";
     src: url(../fonts/MyriadPro-Light.otf);
 }
-/**
+
 @keyframes back {
     0%{
         background: url(../images/background.png) center center;
@@ -49,12 +49,12 @@ html, body {
     99%{opacity: 0%;}
     100%{opacity: 100%;}
 }
-**/
+
 body {
     background-color: white;    
     animation: back 5s ease-in-out;
 }
-/**
+
 .logo{
     height: 15%;
     width: 10%;
@@ -228,19 +228,21 @@ a{
 }
 .seccion_principal > .header3{
     margin: 0;
-
+    animation: header 5s forwards;
     min-width: 100%;
 }
 .text{
     font-size: 1vw;
     font-family: "Font2";
     text-align: center;
-    margin-top: 1vw;
+
 }
 .seccion_principal > .header4{
-    margin: 0;
+    margin: 25px 0 0 0;
     min-width: 100%;
+    animation: header 5s forwards;
 }
+
 .texto{
     font-size: 1vw;
     font-family: "Font";
@@ -301,7 +303,7 @@ a{
     width: 87vw;
     margin-left: 4vw;
     height: 6vh;
-    margin-top:-1vw;
+    margin-top:1vw;
     animation: header 5s ease-in-out;
 }
 .modelado{
@@ -375,6 +377,7 @@ a{
     border-radius: 1vw;
     width: 87vw;
     margin-left: 4vw;
+    margin-top: 1vw;
     height: 6vh;
     animation: header 5s ease-in-out;
 
@@ -1499,4 +1502,11 @@ circle{
         transform-origin: 50%;
         stroke-linecap: round;
     }
+}
+
+.box__1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }

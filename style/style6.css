@@ -1,251 +1,143 @@
 @font-face {
-    font-family: "Font";
+    font-family: "Font" ;
     src: url(../fonts/MYRIADPRO-REGULAR.OTF);
 }
-
 @font-face {
     font-family: "Font2";
     src: url(../fonts/MyriadPro-Light.otf);
 }
-body{
-    margin: 0%;
-   
+
+.principal_box{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.principal_box_title{
+    display: flex;
+    height: 10vh;    
+    background-color: #ff6f2c;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
 }
 
-.eliminar_seccion{
+.principal_box_title h1{
+    color: white;
+    font-family: "Font2";
+    font-size: 60px;
+}
+.principal_box_title2{
     display: flex;
-    margin-top: -1vh;
-    width: 100vw;
-    height: 100vh;
+    color: #ff6f2c;
+    font-family: "Font2";
+    font-size: 35px;
+    height: auto;
+    width: auto;
+}
+
+.boxes{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.box_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    padding: 80px;
+    border: 1px solid #ff6f2c;
     
 }
-.title_box{
-    width: 100%;
-    height: 10vh;
-    border-bottom: 0.2ch solid  #ff6f2c;
-
-}
-.title{
+.box_1_title{
     font-family: "Font";
     font-size: 2vw;
-    margin-top: 3.5vh;
-    margin-left: 6vw;
 }
-.back{
-    width: 3vw;
-    margin-top: -5vh;
-    margin-left:1vw;
-    position: absolute;
-}
-.danger_box{
-    display: flex;
-    width: 90vw;
-    height: 16vh;
-    margin-top: 13vh;
-    margin-left: -95vw;
-    background-color: #FFF2DF;
-}
-.danger{
-    width: 3vw;
-    height: 4vh;
-    margin-left: 1vw;
-    margin-top: 1vh;
-    
-}
-.danger_title{
-    font-family: "Font";
-    font-size: 1.9vw;
-    margin-top: 2vh;
-    color: #666161  ;
-    margin-left: 1vw;
-    width: 20vw;
-    height: 4vh;
-    font-weight: 500;
-    word-spacing: 0.4vw;
-}
-
-.danger_text{
-    position: fixed;
-    font-family: "Font";
-    font-weight: 500;
-
-    font-size: 1.7vw;
-    margin: 4vw 05vw 0vw -23vw ;
-}
-.box1{
-    border: 0.1ch solid #ff6f2c ;
-    display: flex;
-    width: 90vw;
-    height: 9vh;
-    margin-top: 33vh;
-    margin-left: -90vw;
-}
-.box1_title{
+.box_1_text{
     font-family: "Font";
     font-size: 1.5vw;
-    margin: 0.5vw 0px 0px 2vw;
+    color: #ff6f2c;
 }
-.box1_text{
-    font-family: "Font";
-    font-size: 1vw;
-    color: #666161;
-    margin: 3vw 0px 0px -8.5vw;
-}
-.basura{
-    width: 2vw;
-    height: 2vw;
-    margin: 1.5vw 0vw 0vw 70vw;
-}
-.porcentaje{
-    margin: 1.5vw 0vw 0vw -6vw;
-    position: relative;
-}
-.porcentaje span{
-    font-size: 0.7vw;
-    font-family: "Font2";
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    margin-top: 0.6vw;
-    margin-left: 0.3vw;
-}
-circle{
-    fill: none;
-    stroke: var(--color);
-    stroke-width: 0.3vw;
-    stroke-dasharray: var(--porcentaje) 100;
-    transform: rotate(-90deg);
-    transform-origin: 50%;
-    stroke-linecap: round;
-}
-.box2{
-    border: 0.1ch solid #ff6f2c ;
-    display: flex;
-    width: 90vw;
-    height: 9vh;
-    margin-top: 43vh;
-    margin-left: -90vw;
-}
-.box2_title{
+.box_1_text2{
     font-family: "Font";
     font-size: 1.5vw;
-    margin: 0.5vw 0px 0px 2vw;
+    color: #ff6f2c;
 }
-.box2_text{
-    font-family: "Font";
-    font-size: 1vw;
-    color: #666161;
-    margin: 3vw 0px 0px -8.5vw;
-}
-.basura1{
-    width: 2vw;
-    height: 2vw;
-    margin: 1.5vw 0vw 0vw 72vw;
-   
-} 
-.box3{
-    border: 0.1ch solid #ff6f2c ;
-    display: flex;
-    width: 90vw;
-    height: 9vh;
-    margin-top: 52.9vh;
-    margin-left: -90vw;
-}
-.box3_title{
+.box_1_text3{
     font-family: "Font";
     font-size: 1.5vw;
-    position: fixed;
-    margin: 0.5vw 0px 0px 2vw;
+    color: #ff6f2c;
 }
-.box3_text{
-    font-family: "Font";
-    font-size: 1vw;
-    color: #666161;
-    margin: 3vw 0px 0px 1.5vw;
-    position: fixed;
-}
-.basura2{
-    width: 2vw;
-    height: 2vw;
-    margin: 1.5vw 0vw 0vw 85vw;
-} 
-
-.box4{
-    border: 0.1ch solid #ff6f2c ;
-    display: flex;
-    width: 90vw;
-    height: 9vh;
-    margin-top: 10vh;
-    margin-left: -83.1vw;
-}
-.box4_title{
+.box_1_text4{
     font-family: "Font";
     font-size: 1.5vw;
-    margin: 0.5vw 0px 0px 2vw;
+    color: #ff6f2c;
 }
-.box4_text{
-    font-family: "Font";
-    font-size: 1vw;
-    color: #666161;
-    margin: 3vw 0px 0px -11.5vw;
-}
-.basura3{
-    width: 2vw;
-    height: 2vw;
-    margin: 1.5vw 0vw 0vw 70vw;
-} 
-
-
-.box5{
-    border: 0.1ch solid #ff6f2c ;
+.box_2{
     display: flex;
-    width: 90vw;
-    height: 9vh;
-    margin-top: 10vh;
-    margin-left: -83.8vw;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+    border: 1px solid #ff6f2c;
 }
-.box5_title{
+.box_2_title{
+    font-family: "Font";
+    font-size: 2vw;
+}
+.box_2_text{
     font-family: "Font";
     font-size: 1.5vw;
-    margin: 0.5vw 0px 0px 2vw;
+    color: #ff6f2c;
 }
-.box5_text{
-    font-family: "Font";
-    font-size: 1vw;
-    color: #666161;
-    margin: 3vw 0px 0px -14.5vw;
-    position: fixed;
-}
-.basura4{
-    width: 2vw;
-    height: 2vw;
-    margin: 1.5vw 0vw 0vw 68.8vw;
-} 
-.box6{
-    border: 0.1ch solid #ff6f2c ;
-    display: flex;
-    width: 90vw;
-    height: 9vh;
-    margin-top: 10vh;
-    margin-left: -0.1vw;
-    position: fixed;
-}
-.box6_title{
+.box_2_text2{
     font-family: "Font";
     font-size: 1.5vw;
-    margin: 0.5vw 0px 0px 2vw;
+    color: #ff6f2c;
 }
-.box6_text{
+.box_2_text3{
     font-family: "Font";
-    font-size: 1vw;
-    color: #666161;
-    margin: 3vw 0px 0px -11.5vw;
-    position: fixed;
+    font-size: 1.5vw;
+    color: #ff6f2c;
 }
-.basura5{
-    width: 2vw;
-    height: 2vw;
-    margin: 1.5vw 0vw 0vw 72vw;
-} 
+.box_2_text4{
+    font-family: "Font";
+    font-size: 1.5vw;
+    color: #ff6f2c;
+}
+.box_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+    border: 1px solid #ff6f2c;
+}
+.box_3_title{
+    font-family: "Font";
+    font-size: 2vw;
+}
+.box_3_text{
+    font-family: "Font";
+    font-size: 1.5vw;
+}
+.box_3_text2{
+    font-family: "Font";
+    font-size: 1.5vw;
+}
+.box_3_text3{
+    font-family: "Font";
+    font-size: 1.5vw;
+    background-color:#ffdbc1;
+    border-radius: 2px solid #ff6f2c;
+}
+.box_3_text4{
+    font-family: "Font";
+    font-size: 1.5vw;
+}
