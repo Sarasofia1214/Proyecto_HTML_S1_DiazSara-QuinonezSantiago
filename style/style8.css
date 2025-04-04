@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Font" ;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: "Font2";
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+body{
+    margin: 2vw;
+}
+.back{
+    width: 5vw;
+    position: fixed;
+    margin-left: -48vw;
+    margin-top: 1vw;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1vw;
+}
+.box1_title{
+    background-color: #ff6f2c;
+    width: 85vw;
+    height: 9vh;
+    color: white;
+    font-family: "Font";
+    font-size: 2.5vw;
+    margin-left: 7vw;
+    line-height: 6vw;
+}
+.box1_subtitle{
+    font-family: "Font";
+    font-size: 2vw;
+    margin-left: 4vw;
+}
+.box1_text{
+    font-family: "Font";
+    margin-left: 5vw;
+    font-size: 1.8vw;
+    color: rgba(0, 0, 0, 0.486);
+    word-spacing: 0.1vw;
+}
+.box2{
+    width:85vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 7vw;
+   margin-top: 2vw;
+
+}
+.img1{
+    width: 3vw;
+    margin-left: -9vw;
+
+}
+.box2_title{
+    height: 3vw;
+    font-size: 2vw;
+    font-family: "Font";
+    margin-top: -2vw;
+    margin-left: 4vw;
+    
+}
+.box22{
+display: flex;
+justify-content: space-between;
+border: 0.3ch solid #ff6f2c;
+width: 85vw;
+margin-left: 7vw;
+
+}
+.box2_content{
+    display: flex;
+    font-family: "Font";
+    font-size: 2vw;
+    margin-top: -1vw;
+}
+.box2_content2{
+    border: 0.2ch solid #ff6f2c;
+    background-color: #ed914f85;
+    font-family: "Font";
+    font-size: 2vw;
+    height: 13vh;
+    margin-top: 1vw;
+    margin-left: 7vw;
+}
+.box2_content_text2{
+    margin-left: 5vw;
+}
+.box2_content_text3{
+    font-family: "Font";
+    font-size: 2vw;
+    margin-left: 6vw;
+}
+.box2_content_text{
+    margin-top: 9vw;
+    margin-left: -9.5vw;
+
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 42vw;
+    margin-top: 2vw;
+    text-align: center;
+    gap: 1vw;
+
+}
+.img{
+    width: 4vw;
+    position: fixed;
+    margin-top: -0.9vw;
+}
+.box3_title{
+    font-size: 2vw;
+    font-family: "Font";
+}
+.box3_text{
+    font-size: 1.6vw;
+    font-family: "Font";
+    color: rgba(0, 0, 0, 0.486);
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:1vw;
+}
+.box4_title{
+    font-size: 2vw;
+    font-family: "Font";
+    margin-left: 6vw;
+    margin-top: 2vw;
+}
+.box4_text{
+    font-family: "Font";
+    margin-left: 8vw;
+    font-size: 1.7vw;
+    color: rgba(0, 0, 0, 0.486);
+}
