@@ -157,6 +157,7 @@
     margin-top: -8vw;
     margin-left: 1vw;
     color: white;
+    line-height: 2vw;
 
 }
 
@@ -194,6 +195,7 @@
     width: 18vw;
     height: 2vh;
     margin-left: 45vw;
+  
 }
 
 .tex6_gap {
@@ -309,11 +311,13 @@
     display: flex;
     justify-content: center;
     color: white;
+    line-height: 2vw;
 }
 
 .tex10_gap10 p {
     margin-top: 5vh;
     background-color: black;
+
 
 }
 .tex11{
