@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Font";
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: "Font2";
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+.box1{
+    display: flex;
+    align-items:flex-end;
+    
+}
+.perfil{
+    font-size: 2vw;
+    font-family: "Font";
+    line-height: 5vw;
+    margin-left: 2vw;
+}
+.img1{
+    width: 5vw;
+
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50vw;
+    margin-left: 26vw;
+    gap: 2vw;
+}
+.img{
+    width: 20vw;
+}
+.box2_text{
+    font-family: "Font";
+    font-size: 2vw;
+    background-color: #D9D9D9;
+    width: 35vw;
+    height: 5vh;
+    border-radius: 0.4vw;
+}
+.box2_text2{
+    font-family: "Font";
+    font-size: 2vw;
+    background-color: #D9D9D9;
+    width: 35vw;
+    height: 5vh;
+    border-radius: 0.4vw;
+}
+.box2_text3{
+    font-family: "Font";
+    font-size: 2vw;
+    background-color: #D9D9D9;
+    width: 35vw;
+    height: 5vh;
+    border-radius: 0.4vw;
+}
+.box2_text4{
+    font-family: "Font";
+    font-size: 2vw;
+    background-color: #D9D9D9;
+    width: 35vw;
+    height: 5vh;
+    border-radius: 0.4vw;
+}
+.box2_text5{
+    font-family: "Font";
+    font-size: 2vw;
+    background-color: #D9D9D9;
+    width: 35vw;
+    height: 5vh;
+    border-radius: 0.4vw;
+}
+.img2{
+    width: 4vw;
+    margin-left: 82vw;
+
+}
